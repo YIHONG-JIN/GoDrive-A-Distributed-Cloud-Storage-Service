@@ -1,12 +1,8 @@
-# distributed-fileserver
+# Distributed-fileserver
 
 A distributed cloud storage service based on Golang
 
-## logic
-
-<img src='/doc/microservice_interact_archi.png' width="800px"></img>
-
-## manually install
+## Manually install
 
 as following：
 ```shell
