@@ -1,6 +1,24 @@
 # Distributed-fileserver
 
-A distributed cloud storage service based on Golang
+A Distributed Cloud Storage Service Based on Golang
+
+### Features
+
+#### Basic
+
+- User Account System
+- Repositories Page View
+- File Upload
+- File Download
+- File Search
+
+#### Extra
+
+- Instantaneous Upload
+- Uploading in Chunks
+- Breakpoint Continued Transmission
+- Asynchronous File Backup
+
 
 ## How to start
 
