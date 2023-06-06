@@ -1,6 +1,6 @@
 # Distributed-fileserver
 
-A Distributed Cloud Storage Service Based on Golang
+A Distributed Cloud Storage Service based on Golang
 
 ### Features
 
