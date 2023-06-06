@@ -1,6 +1,6 @@
 # Distributed-fileserver
 
-A Distributed Cloud Storage Service based on Golang
+GoDrive is a distributed cloud storage service based on Golang
 
 ### Features
 
