@@ -1,4 +1,4 @@
--- 创建文件表
+-- create file table
 CREATE TABLE `tbl_file` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `file_sha1` char(40) NOT NULL DEFAULT '',
@@ -15,7 +15,7 @@ CREATE TABLE `tbl_file` (
   KEY `idx_status` (`status`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- 创建用户表
+-- create user table
 CREATE TABLE `tbl_user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_name` varchar(64) NOT NULL DEFAULT '',
@@ -33,7 +33,7 @@ CREATE TABLE `tbl_user` (
   KEY `idx_status` (`status`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- 创建用户token表
+-- create user token table
 CREATE TABLE `tbl_user_token` (
     `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_name` varchar(64) NOT NULL DEFAULT,
@@ -42,7 +42,7 @@ CREATE TABLE `tbl_user_token` (
   UNIQUE KEY `idx_username` (`user_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- 创建用户文件表
+-- create user file table
 CREATE TABLE `tbl_user_file` (
   `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `user_name` varchar(64) NOT NULL,
